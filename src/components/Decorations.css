@@ -1,0 +1,46 @@
+/* ── Shared decorative shapes used across sections ── */
+
+/* Blobs */
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
+  filter: blur(60px);
+  opacity: 0.35;
+}
+.blob--pink  { background: #f5c6d0; }
+.blob--green { background: #c8e6c9; }
+.blob--purple{ background: #ddd6fe; }
+.blob--yellow{ background: #fef08a; }
+.blob--coral { background: #fecaca; }
+
+/* Hard geometric shapes */
+.shape-circle {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
+}
+.shape-rect {
+  position: absolute;
+  pointer-events: none;
+  z-index: 0;
+}
+.shape-triangle {
+  position: absolute;
+  width: 0; height: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+.shape-drop {
+  position: absolute;
+  pointer-events: none;
+  z-index: 0;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+.shape-squiggle {
+  position: absolute;
+  pointer-events: none;
+  z-index: 0;
+}
